@@ -1,0 +1,691 @@
+Opened log file 'C:\portcls_reactos_win2k3.log'
+
+Microsoft (R) Windows Debugger Version 6.12.0002.633 AMD64
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+Opened \\.\pipe\kd_Windows_7_Ultimate
+Waiting to reconnect...
+Connected to Windows 7 7601 x64 target at (Mon Nov 23 10:25:29.750 2026 (UTC - 5:00)), ptr64 TRUE
+Kernel Debugger connection established.
+WARNING: Inaccessible path: 'D:\supermium\pdb'
+Symbol search path is: D:\reactos\output-VS-i386\msvc_pdb;*srv*C:\symbols*https://msdl.microsoft.com/download/symbols;D:\supermium\pdb
+Executable search path is: D:\reactos
+*** ERROR: Symbol file could not be found.  Defaulted to export symbols for ntkrnlmp.exe - 
+Windows 7 Kernel Version 7601 MP (1 procs) Free x64
+Built by: 7601.24545.amd64fre.win7sp1_ldr_escrow.200102-1707
+Machine Name:
+Kernel base = 0xfffff800`0284e000 PsLoadedModuleList = 0xfffff800`02a87c90
+System Uptime: not available
+WARNING: Inaccessible path: 'D:\supermium\pdb'
+WARNING: Inaccessible path: 'D:\gtk-gnutella'
+WARNING: Inaccessible path: 'D:\PCnet\pcnet\driver'
+IPRT: RTMpPoke => rtMpPokeCpuUsingHalRequestIpiW7Plus
+vgdrvHeartbeatInit: Setting up heartbeat to trigger every 2000 milliseconds
+vgdrvNtSetupDevice: Device is ready!
+IPRT: Neither _KPRCB::QuantumEnd nor _KPRCB::DpcQueueDepth was not found! Kernel 6.1 7601 free
+IPRT: RTMpPoke => rtMpPokeCpuUsingHalRequestIpiW7Plus
+IPRT: RTMpPoke => rtMpPokeCpuUsingHalRequestIpiW7Plus
+IPRT: Neither _KPRCB::QuantumEnd nor _KPRCB::DpcQueueDepth was not found! Kernel 6.1 7601 free
+IPRT: RTMpPoke => rtMpPokeCpuUsingHalRequestIpiW7Plus
+IPRT: RTMpPoke => rtMpPokeCpuUsingHalRequestIpiW7Plus
+IPRT: RTMpPoke => rtMpPokeCpuUsingHalRequestIpiW7Plus
+KDTARGET: Refreshing KD connection
+IPRT: Neither _KPRCB::QuantumEnd nor _KPRCB::DpcQueueDepth was not found! Kernel 6.1 7601 free
+IPRT: RTMpPoke => rtMpPokeCpuUsingHalRequestIpiW7Plus
+pcntn5m: Am79C973 (PCnet-FAST III), chip ID 0x02625003, PCI 1022:2000, I/O 0xd020, IRQ 19
+PCnet: IDON found by polling CSR0 (0x01c1); the init interrupt was not delivered.
+vboxNetLwfWinAttach: friendly name=AMD PCnet-FAST III Ethernet Adapter (Am79C973)
+vboxNetLwfWinAttach: name=\DEVICE\{2030E9D8-F00F-412E-AA60-7A3DCE946021}
+vboxNetAdpWinAllocAdapter: name=VirtualBox Host-Only Ethernet Adapter
+vboxNetLwfWinAttach: won't attach to VirtualBox Host-Only Ethernet Adapter
+vboxNetLwfWinAttach: won't attach to VirtualBox Host-Only Ethernet Adapter
+vboxNetLwfWinAttach: won't attach to VirtualBox Host-Only Ethernet Adapter
+vboxNetLwfWinAttach: won't attach to VirtualBox Host-Only Ethernet Adapter
+Fail to read system\currentcontrolset\services\Lmhosts\Parameters\EnableUserMode, error=2
+DfsDs RPC server started.
+base\diagnosis\diagtrack\engine\settingsmanager.cpp(588)\diagtrack.dll!000007FEF9FE1008: (caller: 000007FEF9FE0A98) ReturnHr[PreRelease](1) tid(5dc) 80070002 The system cannot find the file specified.
+base\diagnosis\diagtrack\engine\settingsmanager.cpp(506)\diagtrack.dll!000007FEF9FE0AB8: (caller: 000007FEF9FDFCC8) LogHr(1) tid(5dc) 80070002 The system cannot find the file specified.
+base\diagnosis\diagtrack\tracing\tracer.cpp(88)\diagtrack.dll!000007FEFA02AA68: (caller: 000007FEFA029F7F) Exception(1) tid(5dc) 8007007E The specified module could not be found.
+base\diagnosis\diagtrack\tracing\tracemanager.cpp(1899)\diagtrack.dll!000007FEFA09809B: (caller: 000007FEF9FB3A16) LogHr(2) tid(5dc) 8007007E The specified module could not be found.
+base\diagnosis\diagtrack\tracing\tracer.cpp(88)\diagtrack.dll!000007FEFA02AA68: (caller: 000007FEFA029F7F) Exception(2) tid(5dc) 8007007E The specified module could not be found.
+base\diagnosis\diagtrack\tracing\tracemanager.cpp(1883)\diagtrack.dll!000007FEFA09805C: (caller: 000007FEFA0253AD) LogHr(3) tid(5dc) 8007007E The specified module could not be found.
+base\diagnosis\diagtrack\include\Utils.h(4593)\diagtrack.dll!000007FEF9FEA46E: (caller: 000007FEFA01FE59) ReturnHr[PreRelease](2) tid(5dc) 8007007F The specified procedure could not be found.
+base\diagnosis\diagtrack\engine\aadticket.cpp(135)\diagtrack.dll!000007FEFA08784E: (caller: 000007FEFA0879C4) ReturnHr[PreRelease](3) tid(5dc) 80070057 The parameter is incorrect.
+base\diagnosis\diagtrack\engine\aadticket.cpp(158)\diagtrack.dll!000007FEFA0879E1: (caller: 000007FEFA009952) Exception(3) tid(5dc) 80070057 The parameter is incorrect.
+base\diagnosis\diagtrack\include\Utils.h(4593)\diagtrack.dll!000007FEF9FEA46E: (caller: 000007FEFA01275B) ReturnHr[PreRelease](4) tid(60c) 8007007F The specified procedure could not be found.
+base\diagnosis\diagtrack\engine\settingsmanager.cpp(588)\diagtrack.dll!000007FEF9FE1008: (caller: 000007FEF9FE0A98) ReturnHr[PreRelease](5) tid(614) 80070002 The system cannot find the file specified.
+base\diagnosis\diagtrack\engine\settingsmanager.cpp(506)\diagtrack.dll!000007FEF9FE0AB8: (caller: 000007FEF9FDFCC8) LogHr(4) tid(614) 80070002 The system cannot find the file specified.
+base\diagnosis\diagtrack\include\Utils.h(2581)\diagtrack.dll!000007FEF9FC3501: (caller: 000007FEF9FCDF18) ReturnHr[PreRelease](6) tid(614) 800401F3 Invalid class string
+base\diagnosis\diagtrack\include\Utils.h(2581)\diagtrack.dll!000007FEF9FC3501: (caller: 000007FEF9FCDF18) ReturnHr[PreRelease](7) tid(614) 800401F3 Invalid class string
+base\diagnosis\diagtrack\include\Utils.h(2581)\diagtrack.dll!000007FEF9FC3501: (caller: 000007FEF9FCDF18) ReturnHr[PreRelease](8) tid(614) 800401F3 Invalid class string
+base\diagnosis\diagtrack\include\Utils.h(2581)\diagtrack.dll!000007FEF9FC3501: (caller: 000007FEF9FCDF18) ReturnHr[PreRelease](9) tid(614) 800401F3 Invalid class string
+base\diagnosis\diagtrack\include\Utils.h(2581)\diagtrack.dll!000007FEF9FC3501: (caller: 000007FEF9FCDF18) ReturnHr[PreRelease](10) tid(614) 800401F3 Invalid class string
+base\diagnosis\diagtrack\include\Utils.h(2581)\diagtrack.dll!000007FEF9FC3501: (caller: 000007FEF9FCDF18) ReturnHr[PreRelease](11) tid(614) 800401F3 Invalid class string
+base\diagnosis\diagtrack\include\Utils.h(2581)\diagtrack.dll!000007FEF9FC3501: (caller: 000007FEF9FCDF18) ReturnHr[PreRelease](12) tid(614) 800401F3 Invalid class string
+base\diagnosis\diagtrack\matchengine\asimovuploader.cpp(1599)\diagtrack.dll!000007FEFA00CCB5: (caller: 000007FEF9FCB652) ReturnHr[PreRelease](13) tid(614) 80070510 The requested file operation failed because the storage policy blocks that type of file. For more information, contact your system administrator.
+base\diagnosis\diagtrack\matchengine\asimovuploader.cpp(426)\diagtrack.dll!000007FEF9FCB672: (caller: 000000007772556D) LogHr(5) tid(614) 80070510 The requested file operation failed because the storage policy blocks that type of file. For more information, contact your system administrator.
+base\diagnosis\diagtrack\matchengine\asimovuploader.cpp(1599)\diagtrack.dll!000007FEFA00CCB5: (caller: 000007FEF9FCB652) ReturnHr[PreRelease](14) tid(614) 80070510 The requested file operation failed because the storage policy blocks that type of file. For more information, contact your system administrator.
+base\diagnosis\diagtrack\matchengine\asimovuploader.cpp(426)\diagtrack.dll!000007FEF9FCB672: (caller: 000000007772556D) LogHr(6) tid(614) 80070510 The requested file operation failed because the storage policy blocks that type of file. For more information, contact your system administrator.
+base\diagnosis\diagtrack\matchengine\asimovuploader.cpp(1599)\diagtrack.dll!000007FEFA00CCB5: (caller: 000007FEF9FCB652) ReturnHr[PreRelease](15) tid(614) 80070510 The requested file operation failed because the storage policy blocks that type of file. For more information, contact your system administrator.
+base\diagnosis\diagtrack\matchengine\asimovuploader.cpp(426)\diagtrack.dll!000007FEF9FCB672: (caller: 000000007772556D) LogHr(7) tid(614) 80070510 The requested file operation failed because the storage policy blocks that type of file. For more information, contact your system administrator.
+base\diagnosis\diagtrack\extension\lib\coreexternal\tdhfacade.cpp(357)\diagtrack.dll!000007FEFA03EA7B: (caller: 000007FEFA02DA28) ReturnHr[PreRelease](16) tid(65c) 80070490 Element not found.
+base\diagnosis\diagtrack\extension\lib\coreexternal\etwconsumer.cpp(535)\diagtrack.dll!000007FEFA02DA48: (caller: 000007FEFE742D5A) LogHr(8) tid(65c) 80070490 Element not found.
+base\diagnosis\diagtrack\extension\lib\coreexternal\tdhfacade.cpp(357)\diagtrack.dll!000007FEFA03EA7B: (caller: 000007FEFA02DA28) ReturnHr[PreRelease](17) tid(65c) 80070490 Element not found.
+base\diagnosis\diagtrack\extension\lib\coreexternal\etwconsumer.cpp(535)\diagtrack.dll!000007FEFA02DA48: (caller: 000007FEFE742D5A) LogHr(9) tid(65c) 80070490 Element not found.
+UmpoNotifyService: error 4c7 notifying service WdiServiceHost
+UmpoNotifyService: error 4c7 notifying service WdiServiceHost
+base\diagnosis\diagtrack\matchengine\asimovuploader.cpp(1599)\diagtrack.dll!000007FEFA00CCB5: (caller: 000007FEFA00D224) ReturnHr[PreRelease](18) tid(600) 80070510 The requested file operation failed because the storage policy blocks that type of file. For more information, contact your system administrator.
+base\diagnosis\diagtrack\matchengine\asimovuploader.cpp(1154)\diagtrack.dll!000007FEFA00B4DA: (caller: 000007FEFA00A82A) Exception(4) tid(600) 80072EFE base\diagnosis\diagtrack\matchengine\asimovuploader.cpp(1269)\diagtrack.dll!000007FEFA09573D: (caller: 000007FEFA00A82A) LogHr(10) tid(600) 80072EFE base\diagnosis\diagtrack\matchengine\asimovuploader.cpp(1599)\diagtrack.dll!000007FEFA00CCB5: (caller: 000007FEFA00D224) ReturnHr[PreRelease](19) tid(600) 80070510 The requested file operation failed because the storage policy blocks that type of file. For more information, contact your system administrator.
+base\diagnosis\diagtrack\matchengine\asimovuploader.cpp(1154)\diagtrack.dll!000007FEFA00B4DA: (caller: 000007FEFA00A82A) Exception(5) tid(600) 80072EFE base\diagnosis\diagtrack\matchengine\asimovuploader.cpp(1269)\diagtrack.dll!000007FEFA09573D: (caller: 000007FEFA00A82A) LogHr(11) tid(600) 80072EFE base\diagnosis\diagtrack\matchengine\asimovuploader.cpp(1599)\diagtrack.dll!000007FEFA00CCB5: (caller: 000007FEFA00D224) ReturnHr[PreRelease](20) tid(600) 80070510 The requested file operation failed because the storage policy blocks that type of file. For more information, contact your system administrator.
+base\diagnosis\diagtrack\matchengine\asimovuploader.cpp(1154)\diagtrack.dll!000007FEFA00B4DA: (caller: 000007FEFA00A82A) Exception(6) tid(600) 80072EFE base\diagnosis\diagtrack\matchengine\asimovuploader.cpp(1269)\diagtrack.dll!000007FEFA09573D: (caller: 000007FEFA00A82A) LogHr(12) tid(600) 80072EFE base\diagnosis\diagtrack\matchengine\asimovuploader.cpp(1599)\diagtrack.dll!000007FEFA00CCB5: (caller: 000007FEFA00D224) ReturnHr[PreRelease](21) tid(600) 80070510 The requested file operation failed because the storage policy blocks that type of file. For more information, contact your system administrator.
+base\diagnosis\diagtrack\matchengine\asimovuploader.cpp(1154)\diagtrack.dll!000007FEFA00B4DA: (caller: 000007FEFA00A82A) Exception(7) tid(600) 80072EFE base\diagnosis\diagtrack\matchengine\asimovuploader.cpp(1269)\diagtrack.dll!000007FEFA09573D: (caller: 000007FEFA00A82A) LogHr(13) tid(600) 80072EFE base\diagnosis\diagtrack\tracing\tracer.cpp(88)\diagtrack.dll!000007FEFA02AA68: (caller: 000007FEFA029F7F) Exception(8) tid(3d4) 8007007E The specified module could not be found.
+base\diagnosis\diagtrack\matchengine\asimovuploader.cpp(1587)\diagtrack.dll!000007FEFA00CBC8: (caller: 000007FEFA00D224) ReturnHr[PreRelease](22) tid(3d4) 8007045B A system shutdown is in progress.
+base\diagnosis\diagtrack\tracing\tracemanager.cpp(1883)\diagtrack.dll!000007FEFA09805C: (caller: 000007FEFA0253AD) LogHr(14) tid(3d4) 8007007E The specified module could not be found.
+Shutdown occurred at (Mon Nov 23 10:27:26.652 2026 (UTC - 5:00))...unloading all symbol tables.
+WARNING: Inaccessible path: 'D:\supermium\pdb'
+WARNING: Inaccessible path: 'D:\gtk-gnutella'
+WARNING: Inaccessible path: 'D:\supermium'
+Closing open log file C:\portcls_reactos_win2k3.log
+Opened log file 'C:\portcls_reactos_win2k3.log'
+Waiting to reconnect...
+Opened log file 'C:\portcls_reactos_win2k3.log'
+
+Microsoft (R) Windows Debugger Version 6.12.0002.633 AMD64
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+Waiting for pipe \\.\pipe\kd_Windows_7_Ultimate
+Waiting to reconnect...
+Opened log file 'C:\portcls_reactos_win2k3.log'
+
+Microsoft (R) Windows Debugger Version 6.12.0002.633 AMD64
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+Opened \\.\pipe\kd_Windows_11
+Waiting to reconnect...
+Connected to Windows 7 22621 x64 target at (Mon Nov 23 10:31:23.364 2026 (UTC - 5:00)), ptr64 TRUE
+Kernel Debugger connection established.
+WARNING: Inaccessible path: 'D:\supermium\pdb'
+Symbol search path is: D:\reactos\output-VS-i386\msvc_pdb;*srv*C:\symbols*https://msdl.microsoft.com/download/symbols;D:\supermium\pdb
+Executable search path is: D:\reactos
+*** ERROR: Symbol file could not be found.  Defaulted to export symbols for ntkrnlmp.exe - 
+Windows 7 Kernel Version 22621 MP (1 procs) Free x64
+Built by: 22621.1928.amd64fre.ni_release_svc_prod3.230622-0951
+Machine Name:
+Kernel base = 0xfffff806`28400000 PsLoadedModuleList = 0xfffff806`290130e0
+System Uptime: 0 days 0:00:00.000
+WARNING: Inaccessible path: 'D:\supermium\pdb'
+WARNING: Inaccessible path: 'D:\gtk-gnutella'
+WARNING: Inaccessible path: 'D:\PCnet\pcnet\driver'
+KsBus.sys*******DriverEntry called
+KsBus.sys*******AddDevice called,fdo createed.
+	BusQueryDeviceID
+	DeviceTextDescription
+	BusQueryInstanceID
+	BusQueryHardwareIDs
+	BusQueryCompatibleIDs
+DScsiPrt*******DriverEntry...create system thread
+device reg path is \Registry\Machine\System\CurrentControlSet\Services\KScsiPrt\Devices
+DriverEntry 0
+The thread for read and write was started ! DScsiPrt*******MiniportFindAdapter...
+DScsiPrt*******MiniportFindAdapter...found an adapter
+MiniportAdapterControl
+DScsiPrt*******MiniportAdapterControl...ScsiQuerySupportedControlTypes(stop,restart,query)
+DScsiPrt*******MiniportInitialize 0  5b3f2010...
+Beging mount devices...
+Cdb: a0 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: a0 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: a0 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: 12 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: 12 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: 12 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: a0 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: a0 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: a0 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: 12 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: 12 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: 12 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: a0 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: a0 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: a0 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: 12 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: 12 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: 12 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: a0 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: a0 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: a0 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: 12 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: 12 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: 12 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: a0 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: a0 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: a0 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: 12 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: 12 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: 12 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: a0 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: a0 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: a0 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: 12 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: 12 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: 12 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: a0 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: a0 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: a0 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: 12 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: 12 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: 12 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: a0 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: a0 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: a0 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: 12 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: 12 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+Cdb: 12 
+DScsiPrt*******MiniportRequestProcessorWorker...process return false
+	query BusDeviceRelation
+minio\security\base\lsa\security\driver\asyncsspi.cxx - SspiInitAsyncInterface
+IPRT: RTMpPoke => rtMpPokeCpuUsingHalRequestIpiW7Plus
+vgdrvHeartbeatInit: Setting up heartbeat to trigger every 2000 milliseconds
+VBoxGuest: Ignoring registry value 'Owners': Unsupported type 0x7
+vgdrvNtSetupDevice: Device is ready!
+BffInitialize: RegistryPath=\Registry\Machine\System\CurrentControlSet\Services\BusFilter
+IOINIT: Built-in driver \Driver\hwpolicy failed to initialize with status - 0xC000025E
+DScsiPrt*******SRB_FUNCTION_WMI
+KDTARGET: Refreshing KD connection
+IPRT: RTMpPoke => rtMpPokeCpuUsingHalRequestIpiW7Plus
+sep5_61: Driver loading...
+SEP: sep5_61: [load] [UTILITY_Driver_Log_Init@1082]: Initialized driver log using contiguous physical memory...
+SEP: sep5_61: [load] [UTILITY_Driver_Log_Init@1084]: WinDDK version equal or greater than 8.0: TRUE..
+SEP: sep5_61: [load] [UTILITY_Driver_Log_Init@1085]: Using no-execute nonpaged pool..
+SEP: sep5_61: [load] [DriverEntry@6852]: Disabling PEBS feature due to security patch
+..
+SEP: sep5_61: [load] [DriverEntry@6925]: PMU collection driver v5.61.22  has been started...
+SEP: sep5_61: [load] [PMU_LIST_Initialize@671]: PMU check enabled! F6.M5e.S3 index=1 drv_type=PUBLIC arch_pmu_info_used=no
+..
+SEP: sep5_61: [load] [PMU_LIST_Build_PCI_List@745]: No PCI list information detected!
+..
+PAX: PMU Arbitration Service v1.0.2 has been started
+IPRT: RTMpPoke => rtMpPokeCpuUsingHalRequestIpiW7Plus
+IPRT: RTMpPoke => rtMpPokeCpuUsingHalRequestIpiW7Plus
+Mounting thread is breaking down
+pcntn5m: [1795447897709] Am79C973 (PCnet-FAST III), chip ID 0x02625003, PCI 1022:2000, I/O 0xc020, IRQ 19
+pcntn5m: [1795447897756] reset started (reason=1); receive=10 transmit=0 missed=0 no_buffer=0 available_tx=64
+pcntn5m: [1795447897756] deferred timer; count=1 receive=10 batches=0 missed=0 no_buffer=0 available_tx=64 reset=1
+pcntn5m: [1795447897756] reset/INIT complete; receive=10 transmit=0 missed=0 no_buffer=0 memory=0 underflow=0 available_tx=64
+pcntn5m: [1795447897756] reset started (reason=1); receive=10 transmit=0 missed=0 no_buffer=0 available_tx=64
+pcntn5m: [1795447897756] deferred timer; count=2 receive=10 batches=0 missed=0 no_buffer=0 available_tx=64 reset=1
+pcntn5m: [1795447897756] reset/INIT complete; receive=10 transmit=0 missed=0 no_buffer=0 memory=0 underflow=0 available_tx=64
+pcntn5m: [1795447897756] reset started (reason=1); receive=10 transmit=0 missed=0 no_buffer=0 available_tx=64
+pcntn5m: [1795447897756] deferred timer; count=3 receive=10 batches=0 missed=0 no_buffer=0 available_tx=64 reset=1
+pcntn5m: [1795447897756] reset/INIT complete; receive=10 transmit=0 missed=0 no_buffer=0 memory=0 underflow=0 available_tx=64
+pcntn5m: [1795447897756] reset started (reason=1); receive=10 transmit=0 missed=0 no_buffer=0 available_tx=64
+pcntn5m: [1795447897756] deferred timer; count=4 receive=10 batches=0 missed=0 no_buffer=0 available_tx=64 reset=1
+pcntn5m: [1795447897756] reset/INIT complete; receive=10 transmit=0 missed=0 no_buffer=0 memory=0 underflow=0 available_tx=64
+pcntn5m: [1795447898173] reset started (reason=1); receive=11 transmit=3 missed=0 no_buffer=0 available_tx=64
+pcntn5m: [1795447898173] deferred timer; count=5 receive=11 batches=0 missed=0 no_buffer=0 available_tx=64 reset=1
+pcntn5m: [1795447898173] reset/INIT complete; receive=11 transmit=3 missed=0 no_buffer=0 memory=0 underflow=0 available_tx=64
+pcntn5m: [1795447899766] periodic baseline; receive=14 transmit=10 available_tx=64 reset=0
+DispBroker.Desktop.dll: 11/23/26 10:31:40 Eastern Standard Time: SessionHandlerBase::EvaluateTargets found new target
+   Concerning target: Id=0x0, Adapter=6455 connected to {NOEDID_80EE_BEEF_00000000_00020000_0}
+pcntn5m: [1795447901077] reset started (reason=1); receive=15 transmit=10 missed=0 no_buffer=0 available_tx=64
+pcntn5m: [1795447901077] deferred timer; count=6 receive=15 batches=0 missed=0 no_buffer=0 available_tx=64 reset=1
+pcntn5m: [1795447901077] reset/INIT complete; receive=15 transmit=10 missed=0 no_buffer=0 memory=0 underflow=0 available_tx=64
+pcntn5m: [1795447901077] reset started (reason=1); receive=15 transmit=10 missed=0 no_buffer=0 available_tx=64
+pcntn5m: [1795447901077] deferred timer; count=7 receive=15 batches=0 missed=0 no_buffer=0 available_tx=64 reset=1
+pcntn5m: [1795447901077] reset/INIT complete; receive=15 transmit=10 missed=0 no_buffer=0 memory=0 underflow=0 available_tx=64
+pcntn5m: [1795447901077] reset started (reason=1); receive=15 transmit=11 missed=0 no_buffer=0 available_tx=64
+pcntn5m: [1795447901077] deferred timer; count=8 receive=15 batches=0 missed=0 no_buffer=0 available_tx=64 reset=1
+pcntn5m: [1795447901077] reset/INIT complete; receive=15 transmit=11 missed=0 no_buffer=0 memory=0 underflow=0 available_tx=64
+pcntn5m: [1795447901077] reset started (reason=1); receive=15 transmit=11 missed=0 no_buffer=0 available_tx=64
+pcntn5m: [1795447901077] deferred timer; count=9 receive=15 batches=0 missed=0 no_buffer=0 available_tx=64 reset=1
+pcntn5m: [1795447901077] reset/INIT complete; receive=15 transmit=11 missed=0 no_buffer=0 memory=0 underflow=0 available_tx=64
+pcntn5m: [1795447901841] periodic delta; receive=+7 transmit=+40 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+DfsDs RPC server started.
+pcntn5m: [1795447902849] reset started (reason=1); receive=39 transmit=77 missed=0 no_buffer=0 available_tx=64
+pcntn5m: [1795447902849] deferred timer; count=10 receive=39 batches=0 missed=0 no_buffer=0 available_tx=64 reset=1
+pcntn5m: [1795447902849] reset/INIT complete; receive=39 transmit=77 missed=0 no_buffer=0 memory=0 underflow=0 available_tx=64
+EXWORKER: worker exit with system affinity set, worker routine FFFFF80628B646D0, parameter FFFFBD8FF73AAA50, item FFFFBD8FF73AAA50
+pcntn5m: [1795447904059] periodic delta; receive=+24 transmit=+53 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447906276] periodic delta; receive=+14 transmit=+30 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447908491] periodic delta; receive=+25 transmit=+30 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+Populating UpdatePolicy AllowListSKU MDM licensing allow list string from SLAPI:
+AboveLock|Accounts|ActiveXControls|ADMXIngest|AllowMessageSync|AppHVSI|ApplicationDefaults|AllowAllTrustedApps|AllowAppStoreAutoUpdate|AllowAutomaticAppArchiving|AllowDeveloperUnlock|AllowGameDVR|AllowSharedUserAppData|ApplicationRestrictions|Audit|ConfigureChatIcon|LaunchAppAfterLogOn|MSIAllowUserControlOverInstall|MSIAlwaysInstallWithElevatedPrivileges|RestrictAppDataToSystemVolume|RestrictAppToSystemVolume|AppRuntime|AttachmentManager|Authentication|Autoplay|BitLocker|BITS|Bluetooth|Browser|Camera|Cellular|CloudDesktop|Connectivity|ControlPolicyConflict|CredentialProviders|CredentialsDelegation|CredentialsUI|Cryptography|DataProtection|DataUsage|Defender|DeliveryOptimization|Desktop|DesktopAppInstaller|ConfigureSystemGuardLaunch|EnableVirtualizationBasedSecurity|DeviceHealthMonitoring|DeviceInstallation|DeviceLock|Display|DmaGuard|ErrorReporting|Eap|Education|EnterpriseCloudPrint|EventLogService|AllowClipboardHistory|AllowCopyPaste|AllowCortana|AllowDeviceDiscovery|AllowManualMDMUnenrollment|AllowSaveAsOfOfficeFiles|AllowScreenCapture|AllowSharingOfOfficeFiles|AllowSIMErrorDialogPromptWhenNoSIM|AllowSyncMySettings|AllowTailoredExperiencesWithDiagnosticData|AllowTaskSwitcher|AllowThirdPartySuggestionsInWindowsSpotlight|AllowVoiceRecording|DoNotShowFeedbackNotifications|DoNotSyncBrowserSettings|AllowFindMyDevice|ExploitGuard|FederatedAuthentication|Feeds|FileExplorer|Games|Handwriting|HumanPresence|InternetExplorer|Kerberos|KioskBrowser|Knobs|LanmanWorkstation|Licensing|LocalPoliciesSecurityOptions|LocalSecurityAuthority|LocalUsersAndGroups|Lockdown|Maps|MemoryDump|MSSecurityGuide|MSSLegacy|Multitasking|NetworkIsolation|NetworkListManager|NewsAndInterests|Notifications|OneDrive|Power|Printers|Privacy|RemoteAssistance|RemoteDesktopServices|RemoteDesktop|RemoteManagement|RemoteProcedureCall|RemoteShell|RestrictedGroups|Search|Security|Settings|SettingsSync|SmartScreen|Speech|Start|Storage|System|SystemServices|TaskManager|TaskScheduler|TenantRestrictions|TextInput|TimeLanguageSettings|Troubleshooting|Update|UserRights|VirtualizationBasedTechnology|WebThreatDefense|WiFi|WindowsLogon|WirelessDisplay|Location|WindowsAutopilot|WindowsConnectionManager|WindowsDefenderSecurityCenter|WindowsInkWorkspace|WindowsPowerShell|WindowsSandbox|WiredNetwork|ADMX_
+All policies are allowed
+pcntn5m: [1795447910709] periodic delta; receive=+39 transmit=+45 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447912994] periodic delta; receive=+40 transmit=+35 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447915422] periodic delta; receive=+15 transmit=+25 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+StartUI.SplitViewFrame
+pcntn5m: [1795447917866] periodic delta; receive=+202 transmit=+198 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+Code: 0x4aa500f7 (level=2)
+Message: Token broker activated.
+Details: UTC time: 11/23/2026 15:31:57 (UTC)
+Logged at TokenBackground.cpp, line: 38, method: AAD::Core::TokenBackground::Run.
+Code: 0x4aa5001a (level=2)
+Message: Token broker operation started.
+Details: Operation name: EnumerateAccounts
+Logged at WebAccountProcessor.cpp, line: 500, method: AAD::Core::WebAccountProcessor::CreateBrokerOperation.
+Code: 0x4aa500f6 (level=2)
+Message: Returning no enumerated accounts.
+Details: Logged at EnumerateAccountsBrokerOperation.cpp, line: 84, method: EnumerateAccountsBrokerOperation::ExecuteImpl::<lambda_8c7930d734f5c79f2ede7eea87260337>::operator ().
+pcntn5m: [1795447920295] periodic delta; receive=+15 transmit=+15 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+Code: 0x4aa5001b (level=2)
+Message: Token broker operation succeeded.
+Details: Operation name: EnumerateAccounts
+Logged at WebAccountProcessor.cpp, line: 355, method: AAD::Core::WebAccountProcessor::ProcessOperationAsync::<lambda_2e82bead07174956f1625639b551f5e5>::operator ().
+pcntn5m: [1795447922722] periodic delta; receive=+56 transmit=+43 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447925070] periodic delta; receive=+0 transmit=+1 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447927262] periodic delta; receive=+17 transmit=+16 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447929441] periodic delta; receive=+1 transmit=+0 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447931627] periodic delta; receive=+1 transmit=+0 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+[2026-11-23 10:32:11] Startup - updater built Nov 12 2026 18:00:27
+[2026-11-23 10:32:11] Startup - Steam Client launched with: "C:\Program Files (x86)\Steam\steam.exe" -silent
+[2026-11-23 10:32:11] Windows 10.0.22621.0, 0, 2, 256, 1, 48 
+[2026-11-23 10:32:11] Using the following download hosts for Public, Realm steamglobal
+[2026-11-23 10:32:11] 1. https://client-update.fastly.steamstatic.com, /, Realm 'steamglobal', weight was 900, source = 'update_hosts_cached.vdf'
+[2026-11-23 10:32:11] 2. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 400, source = 'update_hosts_cached.vdf'
+[2026-11-23 10:32:11] 3. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-11-23 10:32:11] Verifying installation...
+[2026-11-23 10:32:11] Verifying executable file sizes only (quick mode)
+[2026-11-23 10:32:11] Verification complete
+Loaded SDL version 3.4.0-1616-g3b2bc9515
+CStartupModeManager::ComputeStartupMode: forcing desktopui via -silent
+Running query: 1 - GpuTopology
+CVulkanTopology: failed to load vulkan entrypointsFailed to query vulkan gpu topology
+Response: 
+Exit code: -2
+ChildProcessQuery: failed with code -2
+CGpuTopology: failed to run gpu topology querySystem page size: 4096
+Steam Allow Foreground Window - Waiting for signal
+System page size: 4096
+pcntn5m: [1795447933817] periodic delta; receive=+2 transmit=+0 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+Steam Service Error: Failed to load Steam Service
+System page size: 4096
+Startup
+System page size: 4096
+System page size: 4096
+WARNING: unable to link protobuf_parse_stats and protobuf_parse_stats because one or more is a ConCommand.
+Failed to init SteamVR because it isn't installed
+System page size: 4096
+WinH264CreateDecoder
+pcntn5m: [1795447935930] periodic delta; receive=+26 transmit=+30 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447937904] periodic delta; receive=+9 transmit=+10 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447939879] periodic delta; receive=+0 transmit=+1 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447941841] periodic delta; receive=+7 transmit=+6 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+local (potentially out of sync) copy of roaming config loaded - 531 bytes.
+pcntn5m: [1795447943494] receive batch sample; count=1 packets=32 receive=613 missed=0 no_buffer=0 available_tx=61 reset=0
+pcntn5m: [1795447943818] periodic delta; receive=+247 transmit=+182 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+Could not bind socket to 192.168.1.11:27036: 10014 (ipv4 = TRUE ipv6 = TRUE, using = IPv4)roaming config store loaded successfully - 531 bytes.
+Error: texture file 'public\steam_cloudsync' does not exist or is invalid
+System startup time: 12.81 seconds
+pcntn5m: [1795447945717] periodic delta; receive=+166 transmit=+151 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+ExecCommandLine: ""C:\Program Files (x86)\Steam\steam.exe" -silent"
+System page size: 4096
+WinH264CreateDecoder
+System page size: 4096
+WinH264CreateDecoder
+System page size: 4096
+pcntn5m: [1795447947490] periodic delta; receive=+103 transmit=+94 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447949255] periodic delta; receive=+143 transmit=+88 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+Suspending
+pcntn5m: [1795447951025] periodic delta; receive=+2 transmit=+4 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447952795] periodic delta; receive=+207 transmit=+136 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447954456] missed packet sample; total=1 receive=4132 no_buffer=0 batches=8 available_tx=41
+pcntn5m: [1795447954506] periodic delta; receive=+3394 transmit=+1990 missed=+4 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=51 reset=0
+pcntn5m: [1795447956108] periodic delta; receive=+1870 transmit=+1142 missed=+5 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447957699] periodic delta; receive=+0 transmit=+0 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447959292] periodic delta; receive=+669 transmit=+380 missed=+7 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447960884] periodic delta; receive=+3 transmit=+0 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447962527] periodic delta; receive=+132 transmit=+74 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447964275] periodic delta; receive=+1425 transmit=+829 missed=+8 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+System page size: 4096
+WinH264CreateDecoder
+CAPIJobRequestUserStats - Server response failed 2
+System page size: 4096
+WinH264CreateDecoder
+pcntn5m: [1795447966034] periodic delta; receive=+357 transmit=+211 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447967781] periodic delta; receive=+246 transmit=+59 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447969529] periodic delta; receive=+129 transmit=+15 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+System page size: 4096
+WinH264CreateDecoder
+pcntn5m: [1795447971331] periodic delta; receive=+97 transmit=+48 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447973256] periodic delta; receive=+24 transmit=+20 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447975183] periodic delta; receive=+4 transmit=+2 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447977115] periodic delta; receive=+0 transmit=+0 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447979050] periodic delta; receive=+0 transmit=+0 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447981033] periodic delta; receive=+20 transmit=+20 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447983155] periodic delta; receive=+8 transmit=+6 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447984940] transmit ring exhausted; receive=11204 transmit=6741 missed=24 no_buffer=0 underflow=0 reset=0
+pcntn5m: [1795447984940] transmit resources recovered; available_tx=64
+pcntn5m: [1795447985281] periodic delta; receive=+3535 transmit=+2059 missed=+40 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447985845] receive batch sample; count=257 packets=32 receive=16679 missed=133 no_buffer=0 available_tx=48 reset=0
+pcntn5m: [1795447986223] missed packet sample; total=257 receive=21805 no_buffer=0 batches=377 available_tx=60
+pcntn5m: [1795447986479] deferred timer; count=257 receive=24614 batches=461 missed=341 no_buffer=0 available_tx=35 reset=0
+System page size: 4096
+WinH264CreateDecoder
+pcntn5m: [1795447987408] periodic delta; receive=+11978 transmit=+6922 missed=+290 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+System page size: 4096
+WinH264CreateDecoder
+CAPIJobRequestUserStats - Server response failed 2
+pcntn5m: [1795447989526] periodic delta; receive=+25 transmit=+19 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447991710] periodic delta; receive=+24 transmit=+16 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447994053] periodic delta; receive=+18 transmit=+5 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447996395] periodic delta; receive=+7 transmit=+3 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795447998721] periodic delta; receive=+8 transmit=+0 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448001046] periodic delta; receive=+2 transmit=+1 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448003437] periodic delta; receive=+180 transmit=+178 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448003797] receive batch sample; count=513 packets=32 receive=26791 missed=387 no_buffer=0 available_tx=33 reset=0
+pcntn5m: [1795448004401] missed packet sample; total=513 receive=32666 no_buffer=0 batches=660 available_tx=45
+pcntn5m: [1795448004810] receive batch sample; count=769 packets=32 receive=36765 missed=602 no_buffer=0 available_tx=46 reset=0
+pcntn5m: [1795448004860] transmit ring exhausted; receive=38173 transmit=22874 missed=647 no_buffer=0 underflow=0 reset=0
+pcntn5m: [1795448004860] transmit resources recovered; available_tx=64
+pcntn5m: [1795448005442] missed packet sample; total=769 receive=43748 no_buffer=0 batches=958 available_tx=47
+pcntn5m: [1795448005482] deferred timer; count=513 receive=44484 batches=981 missed=793 no_buffer=0 available_tx=48 reset=0
+pcntn5m: [1795448005699] transmit ring exhausted; receive=46289 transmit=27922 missed=817 no_buffer=0 underflow=0 reset=0
+pcntn5m: [1795448005703] transmit resources recovered; available_tx=64
+pcntn5m: [1795448005723] receive batch sample; count=1025 packets=32 receive=46673 missed=829 no_buffer=0 available_tx=32 reset=0
+pcntn5m: [1795448006398] missed packet sample; total=1025 receive=55113 no_buffer=0 batches=1247 available_tx=47
+pcntn5m: [1795448006522] receive batch sample; count=1281 packets=32 receive=56892 missed=1042 no_buffer=0 available_tx=48 reset=0
+pcntn5m: [1795448007277] deferred timer; count=769 receive=65014 batches=1462 missed=1195 no_buffer=0 available_tx=21 reset=0
+pcntn5m: [1795448007617] receive batch sample; count=1537 packets=32 receive=67824 missed=1261 no_buffer=0 available_tx=48 reset=0
+pcntn5m: [1795448007624] missed packet sample; total=1281 receive=68432 no_buffer=0 batches=1556 available_tx=47
+pcntn5m: [1795448008400] receive batch sample; count=1793 packets=32 receive=78037 missed=1447 no_buffer=0 available_tx=48 reset=0
+pcntn5m: [1795448008502] transmit ring exhausted; receive=80309 transmit=49378 missed=1519 no_buffer=0 underflow=0 reset=0
+pcntn5m: [1795448008502] transmit resources recovered; available_tx=64
+pcntn5m: [1795448008534] transmit ring exhausted; receive=80693 transmit=49797 missed=1532 no_buffer=0 underflow=0 reset=0
+pcntn5m: [1795448008534] transmit resources recovered; available_tx=64
+pcntn5m: [1795448008601] missed packet sample; total=1537 receive=81128 no_buffer=0 batches=1882 available_tx=49
+pcntn5m: [1795448008621] periodic delta; receive=+55693 transmit=+34942 missed=+1183 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448008780] transmit ring exhausted; receive=83109 transmit=51546 missed=1579 no_buffer=0 underflow=0 reset=0
+pcntn5m: [1795448008780] transmit resources recovered; available_tx=64
+pcntn5m: [1795448008846] deferred timer; count=1025 receive=84334 batches=1968 missed=1617 no_buffer=0 available_tx=55 reset=0
+pcntn5m: [1795448009311] receive batch sample; count=2049 packets=32 receive=88421 missed=1657 no_buffer=0 available_tx=48 reset=0
+pcntn5m: [1795448009558] missed packet sample; total=1793 receive=92834 no_buffer=0 batches=2185 available_tx=53
+pcntn5m: [1795448011188] periodic delta; receive=+14941 transmit=+9483 missed=+299 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448013760] periodic delta; receive=+48 transmit=+47 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448016246] periodic delta; receive=+1 transmit=+0 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448018566] periodic delta; receive=+2 transmit=+1 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448020884] periodic delta; receive=+4 transmit=+4 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448023188] periodic delta; receive=+4 transmit=+4 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448025493] periodic delta; receive=+1295 transmit=+728 missed=+18 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448025588] receive batch sample; count=2305 packets=32 receive=98646 missed=1882 no_buffer=0 available_tx=47 reset=0
+pcntn5m: [1795448026038] deferred timer; count=1281 receive=104732 batches=2473 missed=2037 no_buffer=0 available_tx=44 reset=0
+pcntn5m: [1795448026039] missed packet sample; total=2049 receive=105116 no_buffer=0 batches=2485 available_tx=48
+pcntn5m: [1795448026253] receive batch sample; count=2561 packets=32 receive=107622 missed=2111 no_buffer=0 available_tx=48 reset=0
+pcntn5m: [1795448027207] receive batch sample; count=2817 packets=32 receive=117081 missed=2293 no_buffer=0 available_tx=48 reset=0
+pcntn5m: [1795448027256] missed packet sample; total=2305 receive=117753 no_buffer=0 batches=2838 available_tx=53
+pcntn5m: [1795448027526] deferred timer; count=1537 receive=122089 batches=2958 missed=2400 no_buffer=0 available_tx=47 reset=0
+pcntn5m: [1795448027764] receive batch sample; count=3073 packets=32 receive=126024 missed=2512 no_buffer=0 available_tx=48 reset=0
+pcntn5m: [1795448027883] missed packet sample; total=2561 receive=127920 no_buffer=0 batches=3126 available_tx=47
+pcntn5m: [1795448028401] receive batch sample; count=3329 packets=32 receive=135492 missed=2719 no_buffer=0 available_tx=48 reset=0
+pcntn5m: [1795448028899] deferred timer; count=1793 receive=141707 batches=3470 missed=2787 no_buffer=0 available_tx=46 reset=0
+pcntn5m: [1795448029027] missed packet sample; total=2817 receive=143650 no_buffer=0 batches=3524 available_tx=32
+pcntn5m: [1795448029420] receive batch sample; count=3585 packets=32 receive=147349 missed=2859 no_buffer=0 available_tx=64 reset=0
+pcntn5m: [1795448029826] periodic delta; receive=+56498 transmit=+31934 missed=+1009 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=62 reset=0
+pcntn5m: [1795448029887] transmit ring exhausted; receive=154751 transmit=92724 missed=2875 no_buffer=0 underflow=0 reset=0
+pcntn5m: [1795448029887] transmit resources recovered; available_tx=64
+pcntn5m: [1795448030602] receive batch sample; count=3841 packets=32 receive=162339 missed=2961 no_buffer=0 available_tx=47 reset=0
+pcntn5m: [1795448030876] deferred timer; count=2049 receive=166558 batches=3926 missed=2973 no_buffer=0 available_tx=64 reset=0
+pcntn5m: [1795448031187] missed packet sample; total=3073 receive=170699 no_buffer=0 batches=4045 available_tx=54
+pcntn5m: [1795448031283] receive batch sample; count=4097 packets=32 receive=172386 missed=3117 no_buffer=0 available_tx=49 reset=0
+pcntn5m: [1795448031621] missed packet sample; total=3329 receive=179098 no_buffer=0 batches=4297 available_tx=60
+pcntn5m: [1795448031721] receive batch sample; count=4353 packets=32 receive=180914 missed=3380 no_buffer=0 available_tx=46 reset=0
+pcntn5m: [1795448031836] deferred timer; count=2305 receive=183206 batches=4421 missed=3430 no_buffer=0 available_tx=48 reset=0
+pcntn5m: [1795448031914] periodic delta; receive=+30281 transmit=+17012 missed=+595 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448032347] missed packet sample; total=3585 receive=190738 no_buffer=0 batches=4605 available_tx=60
+pcntn5m: [1795448032347] receive batch sample; count=4609 packets=32 receive=190866 missed=3588 no_buffer=0 available_tx=47 reset=0
+pcntn5m: [1795448032994] receive batch sample; count=4865 packets=32 receive=200342 missed=3781 no_buffer=0 available_tx=47 reset=0
+pcntn5m: [1795448033168] missed packet sample; total=3841 receive=202950 no_buffer=0 batches=4932 available_tx=48
+pcntn5m: [1795448033173] deferred timer; count=2561 receive=203078 batches=4936 missed=3844 no_buffer=0 available_tx=31 reset=0
+pcntn5m: [1795448033721] receive batch sample; count=5121 packets=32 receive=210293 missed=3992 no_buffer=0 available_tx=47 reset=0
+pcntn5m: [1795448033953] missed packet sample; total=4097 receive=214845 no_buffer=0 batches=5247 available_tx=58
+pcntn5m: [1795448034001] periodic delta; receive=+30843 transmit=+17188 missed=+644 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=50 reset=0
+pcntn5m: [1795448034405] receive batch sample; count=5377 packets=32 receive=220968 missed=4183 no_buffer=0 available_tx=48 reset=0
+pcntn5m: [1795448034551] deferred timer; count=2817 receive=222758 batches=5423 missed=4221 no_buffer=0 available_tx=48 reset=0
+pcntn5m: [1795448035082] missed packet sample; total=4353 receive=229170 no_buffer=0 batches=5577 available_tx=59
+pcntn5m: [1795448035144] receive batch sample; count=5633 packets=32 receive=230962 missed=4411 no_buffer=0 available_tx=31 reset=0
+pcntn5m: [1795448035742] missed packet sample; total=4609 receive=240194 no_buffer=0 batches=5868 available_tx=32
+pcntn5m: [1795448035765] receive batch sample; count=5889 packets=32 receive=240866 missed=4630 no_buffer=0 available_tx=45 reset=0
+pcntn5m: [1795448035872] deferred timer; count=3073 receive=242894 batches=5946 missed=4681 no_buffer=0 available_tx=43 reset=0
+pcntn5m: [1795448036189] transmit ring exhausted; receive=246280 transmit=144080 missed=4766 no_buffer=0 underflow=0 reset=0
+pcntn5m: [1795448036191] transmit resources recovered; available_tx=64
+pcntn5m: [1795448036449] receive batch sample; count=6145 packets=32 receive=249682 missed=4861 no_buffer=0 available_tx=47 reset=0
+pcntn5m: [1795448036457] missed packet sample; total=4865 receive=249874 no_buffer=0 batches=6151 available_tx=48
+pcntn5m: [1795448036905] receive batch sample; count=6401 packets=32 receive=258335 missed=5106 no_buffer=0 available_tx=47 reset=0
+pcntn5m: [1795448037094] missed packet sample; total=5121 receive=260556 no_buffer=0 batches=6425 available_tx=57
+pcntn5m: [1795448037169] deferred timer; count=3329 receive=261239 batches=6443 missed=5135 no_buffer=0 available_tx=49 reset=0
+pcntn5m: [1795448037726] receive batch sample; count=6657 packets=32 receive=269000 missed=5318 no_buffer=0 available_tx=47 reset=0
+pcntn5m: [1795448037820] missed packet sample; total=5377 receive=270926 no_buffer=0 batches=6716 available_tx=54
+pcntn5m: [1795448038206] receive batch sample; count=6913 packets=32 receive=278129 missed=5516 no_buffer=0 available_tx=50 reset=0
+pcntn5m: [1795448038247] deferred timer; count=3585 receive=279505 batches=6956 missed=5554 no_buffer=0 available_tx=47 reset=0
+pcntn5m: [1795448038491] missed packet sample; total=5633 receive=283906 no_buffer=0 batches=7070 available_tx=61
+pcntn5m: [1795448038681] receive batch sample; count=7169 packets=32 receive=287555 missed=5707 no_buffer=0 available_tx=48 reset=0
+pcntn5m: [1795448039250] missed packet sample; total=5889 receive=296427 no_buffer=0 batches=7407 available_tx=49
+pcntn5m: [1795448039280] receive batch sample; count=7425 packets=32 receive=297035 missed=5907 no_buffer=0 available_tx=47 reset=0
+pcntn5m: [1795448039927] deferred timer; count=3841 receive=298061 batches=7454 missed=5930 no_buffer=0 available_tx=49 reset=0
+pcntn5m: [1795448039976] periodic delta; receive=+83905 transmit=+47542 missed=+1856 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448040464] receive batch sample; count=7681 packets=32 receive=305665 missed=6128 no_buffer=0 available_tx=47 reset=0
+pcntn5m: [1795448040586] missed packet sample; total=6145 receive=306711 no_buffer=0 batches=7710 available_tx=62
+pcntn5m: [1795448041854] periodic delta; receive=+12155 transmit=+7458 missed=+259 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+Populating UpdatePolicy AllowListSKU MDM licensing allow list string from SLAPI:
+AboveLock|Accounts|ActiveXControls|ADMXIngest|AllowMessageSync|AppHVSI|ApplicationDefaults|AllowAllTrustedApps|AllowAppStoreAutoUpdate|AllowAutomaticAppArchiving|AllowDeveloperUnlock|AllowGameDVR|AllowSharedUserAppData|ApplicationRestrictions|Audit|ConfigureChatIcon|LaunchAppAfterLogOn|MSIAllowUserControlOverInstall|MSIAlwaysInstallWithElevatedPrivileges|RestrictAppDataToSystemVolume|RestrictAppToSystemVolume|AppRuntime|AttachmentManager|Authentication|Autoplay|BitLocker|BITS|Bluetooth|Browser|Camera|Cellular|CloudDesktop|Connectivity|ControlPolicyConflict|CredentialProviders|CredentialsDelegation|CredentialsUI|Cryptography|DataProtection|DataUsage|Defender|DeliveryOptimization|Desktop|DesktopAppInstaller|ConfigureSystemGuardLaunch|EnableVirtualizationBasedSecurity|DeviceHealthMonitoring|DeviceInstallation|DeviceLock|Display|DmaGuard|ErrorReporting|Eap|Education|EnterpriseCloudPrint|EventLogService|AllowClipboardHistory|AllowCopyPaste|AllowCortana|AllowDeviceDiscovery|AllowManualMDMUnenrollment|AllowSaveAsOfOfficeFiles|AllowScreenCapture|AllowSharingOfOfficeFiles|AllowSIMErrorDialogPromptWhenNoSIM|AllowSyncMySettings|AllowTailoredExperiencesWithDiagnosticData|AllowTaskSwitcher|AllowThirdPartySuggestionsInWindowsSpotlight|AllowVoiceRecording|DoNotShowFeedbackNotifications|DoNotSyncBrowserSettings|AllowFindMyDevice|ExploitGuard|FederatedAuthentication|Feeds|FileExplorer|Games|Handwriting|HumanPresence|InternetExplorer|Kerberos|KioskBrowser|Knobs|LanmanWorkstation|Licensing|LocalPoliciesSecurityOptions|LocalSecurityAuthority|LocalUsersAndGroups|Lockdown|Maps|MemoryDump|MSSecurityGuide|MSSLegacy|Multitasking|NetworkIsolation|NetworkListManager|NewsAndInterests|Notifications|OneDrive|Power|Printers|Privacy|RemoteAssistance|RemoteDesktopServices|RemoteDesktop|RemoteManagement|RemoteProcedureCall|RemoteShell|RestrictedGroups|Search|Security|Settings|SettingsSync|SmartScreen|Speech|Start|Storage|System|SystemServices|TaskManager|TaskScheduler|TenantRestrictions|TextInput|TimeLanguageSettings|Troubleshooting|Update|UserRights|VirtualizationBasedTechnology|WebThreatDefense|WiFi|WindowsLogon|WirelessDisplay|Location|WindowsAutopilot|WindowsConnectionManager|WindowsDefenderSecurityCenter|WindowsInkWorkspace|WindowsPowerShell|WindowsSandbox|WiredNetwork|ADMX_
+All policies are allowed
+Populating EnterprisePolicy AllowListSKU MDM licensing allow list string from SLAPI:
+AboveLock|Accounts|ActiveXControls|ADMXIngest|AllowMessageSync|AppHVSI|ApplicationDefaults|AllowAllTrustedApps|AllowAppStoreAutoUpdate|AllowAutomaticAppArchiving|AllowDeveloperUnlock|AllowGameDVR|AllowSharedUserAppData|ApplicationRestrictions|Audit|ConfigureChatIcon|LaunchAppAfterLogOn|MSIAllowUserControlOverInstall|MSIAlwaysInstallWithElevatedPrivileges|RestrictAppDataToSystemVolume|RestrictAppToSystemVolume|AppRuntime|AttachmentManager|Authentication|Autoplay|BitLocker|BITS|Bluetooth|Browser|Camera|Cellular|CloudDesktop|Connectivity|ControlPolicyConflict|CredentialProviders|CredentialsDelegation|CredentialsUI|Cryptography|DataProtection|DataUsage|Defender|DeliveryOptimization|Desktop|DesktopAppInstaller|ConfigureSystemGuardLaunch|EnableVirtualizationBasedSecurity|DeviceHealthMonitoring|DeviceInstallation|DeviceLock|Display|DmaGuard|ErrorReporting|Eap|Education|EnterpriseCloudPrint|EventLogService|AllowClipboardHistory|AllowCopyPaste|AllowCortana|AllowDeviceDiscovery|AllowManualMDMUnenrollment|AllowSaveAsOfOfficeFiles|AllowScreenCapture|AllowSharingOfOfficeFiles|AllowSIMErrorDialogPromptWhenNoSIM|AllowSyncMySettings|AllowTailoredExperiencesWithDiagnosticData|AllowTaskSwitcher|AllowThirdPartySuggestionsInWindowsSpotlight|AllowVoiceRecording|DoNotShowFeedbackNotifications|DoNotSyncBrowserSettings|AllowFindMyDevice|ExploitGuard|FederatedAuthentication|Feeds|FileExplorer|Games|Handwriting|HumanPresence|InternetExplorer|Kerberos|KioskBrowser|Knobs|LanmanWorkstation|Licensing|LocalPoliciesSecurityOptions|LocalSecurityAuthority|LocalUsersAndGroups|Lockdown|Maps|MemoryDump|MSSecurityGuide|MSSLegacy|Multitasking|NetworkIsolation|NetworkListManager|NewsAndInterests|Notifications|OneDrive|Power|Printers|Privacy|RemoteAssistance|RemoteDesktopServices|RemoteDesktop|RemoteManagement|RemoteProcedureCall|RemoteShell|RestrictedGroups|Search|Security|Settings|SettingsSync|SmartScreen|Speech|Start|Storage|System|SystemServices|TaskManager|TaskScheduler|TenantRestrictions|TextInput|TimeLanguageSettings|Troubleshooting|Update|UserRights|VirtualizationBasedTechnology|WebThreatDefense|WiFi|WindowsLogon|WirelessDisplay|Location|WindowsAutopilot|WindowsConnectionManager|WindowsDefenderSecurityCenter|WindowsInkWorkspace|WindowsPowerShell|WindowsSandbox|WiredNetwork|ADMX_
+All policies are allowed
+pcntn5m: [1795448043236] receive batch sample; count=7937 packets=32 receive=316466 missed=6360 no_buffer=0 available_tx=42 reset=0
+pcntn5m: [1795448043248] deferred timer; count=4097 receive=316850 batches=7949 missed=6372 no_buffer=0 available_tx=48 reset=0
+pcntn5m: [1795448043734] periodic delta; receive=+7413 transmit=+4047 missed=+163 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+Populating EnterprisePolicy AllowListSKU MDM licensing allow list string from SLAPI:
+AboveLock|Accounts|ActiveXControls|ADMXIngest|AllowMessageSync|AppHVSI|ApplicationDefaults|AllowAllTrustedApps|AllowAppStoreAutoUpdate|AllowAutomaticAppArchiving|AllowDeveloperUnlock|AllowGameDVR|AllowSharedUserAppData|ApplicationRestrictions|Audit|ConfigureChatIcon|LaunchAppAfterLogOn|MSIAllowUserControlOverInstall|MSIAlwaysInstallWithElevatedPrivileges|RestrictAppDataToSystemVolume|RestrictAppToSystemVolume|AppRuntime|AttachmentManager|Authentication|Autoplay|BitLocker|BITS|Bluetooth|Browser|Camera|Cellular|CloudDesktop|Connectivity|ControlPolicyConflict|CredentialProviders|CredentialsDelegation|CredentialsUI|Cryptography|DataProtection|DataUsage|Defender|DeliveryOptimization|Desktop|DesktopAppInstaller|ConfigureSystemGuardLaunch|EnableVirtualizationBasedSecurity|DeviceHealthMonitoring|DeviceInstallation|DeviceLock|Display|DmaGuard|ErrorReporting|Eap|Education|EnterpriseCloudPrint|EventLogService|AllowClipboardHistory|AllowCopyPaste|AllowCortana|AllowDeviceDiscovery|AllowManualMDMUnenrollment|AllowSaveAsOfOfficeFiles|AllowScreenCapture|AllowSharingOfOfficeFiles|AllowSIMErrorDialogPromptWhenNoSIM|AllowSyncMySettings|AllowTailoredExperiencesWithDiagnosticData|AllowTaskSwitcher|AllowThirdPartySuggestionsInWindowsSpotlight|AllowVoiceRecording|DoNotShowFeedbackNotifications|DoNotSyncBrowserSettings|AllowFindMyDevice|ExploitGuard|FederatedAuthentication|Feeds|FileExplorer|Games|Handwriting|HumanPresence|InternetExplorer|Kerberos|KioskBrowser|Knobs|LanmanWorkstation|Licensing|LocalPoliciesSecurityOptions|LocalSecurityAuthority|LocalUsersAndGroups|Lockdown|Maps|MemoryDump|MSSecurityGuide|MSSLegacy|Multitasking|NetworkIsolation|NetworkListManager|NewsAndInterests|Notifications|OneDrive|Power|Printers|Privacy|RemoteAssistance|RemoteDesktopServices|RemoteDesktop|RemoteManagement|RemoteProcedureCall|RemoteShell|RestrictedGroups|Search|Security|Settings|SettingsSync|SmartScreen|Speech|Start|Storage|System|SystemServices|TaskManager|TaskScheduler|TenantRestrictions|TextInput|TimeLanguageSettings|Troubleshooting|Update|UserRights|VirtualizationBasedTechnology|WebThreatDefense|WiFi|WindowsLogon|WirelessDisplay|Location|WindowsAutopilot|WindowsConnectionManager|WindowsDefenderSecurityCenter|WindowsInkWorkspace|WindowsPowerShell|WindowsSandbox|WiredNetwork|ADMX_
+All policies are allowed
+pcntn5m: [1795448045611] periodic delta; receive=+6 transmit=+4 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+Populating UpdatePolicy AllowListSKU MDM licensing allow list string from SLAPI:
+AboveLock|Accounts|ActiveXControls|ADMXIngest|AllowMessageSync|AppHVSI|ApplicationDefaults|AllowAllTrustedApps|AllowAppStoreAutoUpdate|AllowAutomaticAppArchiving|AllowDeveloperUnlock|AllowGameDVR|AllowSharedUserAppData|ApplicationRestrictions|Audit|ConfigureChatIcon|LaunchAppAfterLogOn|MSIAllowUserControlOverInstall|MSIAlwaysInstallWithElevatedPrivileges|RestrictAppDataToSystemVolume|RestrictAppToSystemVolume|AppRuntime|AttachmentManager|Authentication|Autoplay|BitLocker|BITS|Bluetooth|Browser|Camera|Cellular|CloudDesktop|Connectivity|ControlPolicyConflict|CredentialProviders|CredentialsDelegation|CredentialsUI|Cryptography|DataProtection|DataUsage|Defender|DeliveryOptimization|Desktop|DesktopAppInstaller|ConfigureSystemGuardLaunch|EnableVirtualizationBasedSecurity|DeviceHealthMonitoring|DeviceInstallation|DeviceLock|Display|DmaGuard|ErrorReporting|Eap|Education|EnterpriseCloudPrint|EventLogService|AllowClipboardHistory|AllowCopyPaste|AllowCortana|AllowDeviceDiscovery|AllowManualMDMUnenrollment|AllowSaveAsOfOfficeFiles|AllowScreenCapture|AllowSharingOfOfficeFiles|AllowSIMErrorDialogPromptWhenNoSIM|AllowSyncMySettings|AllowTailoredExperiencesWithDiagnosticData|AllowTaskSwitcher|AllowThirdPartySuggestionsInWindowsSpotlight|AllowVoiceRecording|DoNotShowFeedbackNotifications|DoNotSyncBrowserSettings|AllowFindMyDevice|ExploitGuard|FederatedAuthentication|Feeds|FileExplorer|Games|Handwriting|HumanPresence|InternetExplorer|Kerberos|KioskBrowser|Knobs|LanmanWorkstation|Licensing|LocalPoliciesSecurityOptions|LocalSecurityAuthority|LocalUsersAndGroups|Lockdown|Maps|MemoryDump|MSSecurityGuide|MSSLegacy|Multitasking|NetworkIsolation|NetworkListManager|NewsAndInterests|Notifications|OneDrive|Power|Printers|Privacy|RemoteAssistance|RemoteDesktopServices|RemoteDesktop|RemoteManagement|RemoteProcedureCall|RemoteShell|RestrictedGroups|Search|Security|Settings|SettingsSync|SmartScreen|Speech|Start|Storage|System|SystemServices|TaskManager|TaskScheduler|TenantRestrictions|TextInput|TimeLanguageSettings|Troubleshooting|Update|UserRights|VirtualizationBasedTechnology|WebThreatDefense|WiFi|WindowsLogon|WirelessDisplay|Location|WindowsAutopilot|WindowsConnectionManager|WindowsDefenderSecurityCenter|WindowsInkWorkspace|WindowsPowerShell|WindowsSandbox|WiredNetwork|ADMX_
+All policies are allowed
+pcntn5m: [1795448047432] periodic delta; receive=+31 transmit=+35 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448049117] periodic delta; receive=+15 transmit=+14 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448050797] periodic delta; receive=+243 transmit=+193 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448052478] periodic delta; receive=+161 transmit=+114 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+Populating EnterprisePolicy AllowListSKU MDM licensing allow list string from SLAPI:
+AboveLock|Accounts|ActiveXControls|ADMXIngest|AllowMessageSync|AppHVSI|ApplicationDefaults|AllowAllTrustedApps|AllowAppStoreAutoUpdate|AllowAutomaticAppArchiving|AllowDeveloperUnlock|AllowGameDVR|AllowSharedUserAppData|ApplicationRestrictions|Audit|ConfigureChatIcon|LaunchAppAfterLogOn|MSIAllowUserControlOverInstall|MSIAlwaysInstallWithElevatedPrivileges|RestrictAppDataToSystemVolume|RestrictAppToSystemVolume|AppRuntime|AttachmentManager|Authentication|Autoplay|BitLocker|BITS|Bluetooth|Browser|Camera|Cellular|CloudDesktop|Connectivity|ControlPolicyConflict|CredentialProviders|CredentialsDelegation|CredentialsUI|Cryptography|DataProtection|DataUsage|Defender|DeliveryOptimization|Desktop|DesktopAppInstaller|ConfigureSystemGuardLaunch|EnableVirtualizationBasedSecurity|DeviceHealthMonitoring|DeviceInstallation|DeviceLock|Display|DmaGuard|ErrorReporting|Eap|Education|EnterpriseCloudPrint|EventLogService|AllowClipboardHistory|AllowCopyPaste|AllowCortana|AllowDeviceDiscovery|AllowManualMDMUnenrollment|AllowSaveAsOfOfficeFiles|AllowScreenCapture|AllowSharingOfOfficeFiles|AllowSIMErrorDialogPromptWhenNoSIM|AllowSyncMySettings|AllowTailoredExperiencesWithDiagnosticData|AllowTaskSwitcher|AllowThirdPartySuggestionsInWindowsSpotlight|AllowVoiceRecording|DoNotShowFeedbackNotifications|DoNotSyncBrowserSettings|AllowFindMyDevice|ExploitGuard|FederatedAuthentication|Feeds|FileExplorer|Games|Handwriting|HumanPresence|InternetExplorer|Kerberos|KioskBrowser|Knobs|LanmanWorkstation|Licensing|LocalPoliciesSecurityOptions|LocalSecurityAuthority|LocalUsersAndGroups|Lockdown|Maps|MemoryDump|MSSecurityGuide|MSSLegacy|Multitasking|NetworkIsolation|NetworkListManager|NewsAndInterests|Notifications|OneDrive|Power|Printers|Privacy|RemoteAssistance|RemoteDesktopServices|RemoteDesktop|RemoteManagement|RemoteProcedureCall|RemoteShell|RestrictedGroups|Search|Security|Settings|SettingsSync|SmartScreen|Speech|Start|Storage|System|SystemServices|TaskManager|TaskScheduler|TenantRestrictions|TextInput|TimeLanguageSettings|Troubleshooting|Update|UserRights|VirtualizationBasedTechnology|WebThreatDefense|WiFi|WindowsLogon|WirelessDisplay|Location|WindowsAutopilot|WindowsConnectionManager|WindowsDefenderSecurityCenter|WindowsInkWorkspace|WindowsPowerShell|WindowsSandbox|WiredNetwork|ADMX_
+All policies are allowed
+System page size: 4096
+pcntn5m: [1795448054158] periodic delta; receive=+304 transmit=+241 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+[2026-11-23 10:34:15] Background update loop checking for update. . .
+[2026-11-23 10:34:15] Checking for available updates...
+[2026-11-23 10:34:15] Downloading manifest: https://client-update.fastly.steamstatic.com/steam_client_win64
+[2026-11-23 10:34:15] Manifest download: send request
+[2026-11-23 10:34:15] Manifest download: waiting for download to finish
+pcntn5m: [1795448055805] periodic delta; receive=+411 transmit=+306 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+[2026-11-23 10:34:15] Manifest download: finished
+[2026-11-23 10:34:15] Download skipped: /steam_client_win64 version 1794536281, installed version 1794536281, existing pending version 0
+[2026-11-23 10:34:15] Nothing to do
+pcntn5m: [1795448057315] periodic delta; receive=+40 transmit=+54 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448058836] periodic delta; receive=+1 transmit=+1 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448060346] periodic delta; receive=+22 transmit=+18 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448061857] periodic delta; receive=+17 transmit=+15 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448063416] periodic delta; receive=+1 transmit=+0 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448065077] periodic delta; receive=+1 transmit=+0 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448066739] periodic delta; receive=+6 transmit=+2 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448068413] periodic delta; receive=+8 transmit=+12 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+Info: LogSession: Starting a new log session at [C:\Windows\Logs\WinREAgent]
+Info: Enter WinREAgent::GetWinREVersion
+PID=2084 TID=7960 DismApi.dll:                                            - DismInitializeInternal
+PID=2084 TID=7960 DismApi.dll: <----- Starting DismApi.dll session -----> - DismInitializeInternal
+PID=2084 TID=7960 DismApi.dll:                                            - DismInitializeInternal
+PID=2084 TID=7960 DismApi.dll: Host machine information: OS Version=10.0.22621, Running architecture=amd64, Number of processors=2 - DismInitializeInternal
+PID=2084 TID=7960 DismApi.dll: API Version 10.0.22621.1 - DismInitializeInternal
+PID=2084 TID=7960 DismApi.dll: Parent process command line: C:\Windows\system32\svchost.exe -k netsvcs -p -s wuauserv - DismInitializeInternal
+PID=2084 TID=7960 Enter - DismInitializeInternal
+PID=2084 TID=7960 Input parameters: LogLevel: 2, LogFilePath: C:\Windows\Logs\WinREAgent\setupact.log, ScratchDirectory: (null) - DismInitializeInternal
+PID=2084 TID=7960 Initialized GlobalConfig - DismInitializeInternal
+PID=2084 TID=7960 Initialized SessionTable - DismInitializeInternal
+PID=2084 TID=7960 Lookup in table by path failed for: DummyPath-2BA51B78-C7F7-4910-B99D-BB7345357CDC - CTransactionalImageTable::LookupImagePath
+PID=2084 TID=7960 Waiting for m_pInternalThread to start - CCommandThread::Start
+PID=2084 TID=2224 Enter CCommandThread::CommandThreadProcedureStub - CCommandThread::CommandThreadProcedureStub
+PID=2084 TID=2224 Enter CCommandThread::ExecuteLoop - CCommandThread::ExecuteLoop
+PID=2084 TID=7960 CommandThread StartupEvent signaled - CCommandThread::WaitForStartup
+PID=2084 TID=7960 m_pInternalThread started - CCommandThread::Start
+PID=2084 TID=7960 Created g_internalDismSession - DismInitializeInternal
+PID=2084 TID=7960 Exit - DismInitializeInternal
+PID=2084 TID=7960 Enter - DismGetImageInfoInternal
+PID=2084 TID=7960 Input parameters: ImageFilePath: \\?\GLOBALROOT\device\harddisk0\partition4\Recovery\WindowsRE\winre.wim - DismGetImageInfoInternal
+PID=2084 TID=7960 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+PID=2084 TID=2224 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+PID=2084 TID=2224 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+PID=2084 TID=2224 Instantiating the Provider Store. - CDISMImageSession::get_ProviderStorePID=2084 TID=2224 Initializing a provider store for the LOCAL session type. - CDISMProviderStore::Final_OnConnectPID=2084 TID=2224 Attempting to initialize the logger from the Image Session. - CDISMProviderStore::Final_OnConnectPID=2084 TID=2224 Provider has not previously been encountered. Attempting to initialize the provider. - CDISMProviderStore::Internal_GetProviderPID=2084 TID=2224 Loading Provider from location C:\Windows\SYSTEM32\Dism\LogProvider.dll - CDISMProviderStore::Internal_GetProviderPID=2084 TID=2224 Connecting to the provider located at C:\Windows\SYSTEM32\Dism\LogProvider.dll. - CDISMProviderStore::Internal_LoadProviderPID=2084 TID=7960 Exit - DismGetImageInfoInternal
+Info: Exit WinREAgent::GetWinREVersion
+PID=2084 TID=7960 Enter - DismDeleteInternal
+PID=2084 TID=7960 Exit - DismDeleteInternal
+PID=2084 TID=7960 Enter - DismShutdownInternal
+PID=2084 TID=7960 GetReferenceCount hr: 0x0 - CSessionTable::RemoveSession
+PID=2084 TID=7960 Refcount for DismSession= 1s 0 - CSessionTable::RemoveSession
+PID=2084 TID=7960 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+PID=2084 TID=2224 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+PID=2084 TID=2224 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+PID=2084 TID=2224 ExecuteLoop: Cancel signaled - CCommandThread::ExecuteLoop
+PID=2084 TID=2224 Leave CCommandThread::ExecuteLoop - CCommandThread::ExecuteLoop
+PID=2084 TID=2224 Disconnecting the provider store - CDISMImageSession::Final_OnDisconnectPID=2084 TID=2224 Encountered a loaded provider DISMLogger. - CDISMProviderStore::Internal_DisconnectProviderPID=2084 TID=2224 Disconnecting Provider: DISMLogger - CDISMProviderStore::Internal_DisconnectProviderPID=2084 TID=2224 Leave CCommandThread::CommandThreadProcedureStub - CCommandThread::CommandThreadProcedureStub
+PID=2084 TID=7960 Deleted g_internalDismSession - DismShutdownInternal
+PID=2084 TID=7960 Shutdown SessionTable - DismShutdownInternal
+PID=2084 TID=7960 Exit - DismShutdownInternal
+PID=2084 TID=7960 DismApi.dll:                                          - DismShutdownInternal
+PID=2084 TID=7960 DismApi.dll: <----- Ending DismApi.dll session -----> - DismShutdownInternal
+PID=2084 TID=7960 DismApi.dll:                                          - DismShutdownInternal
+pcntn5m: [1795448070086] periodic delta; receive=+0 transmit=+0 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448071791] periodic delta; receive=+0 transmit=+0 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448073632] periodic delta; receive=+1 transmit=+0 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448075460] periodic delta; receive=+4 transmit=+4 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448076626] missed packet sample; total=6401 receive=322132 no_buffer=0 batches=7983 available_tx=55
+pcntn5m: [1795448077301] periodic delta; receive=+10760 transmit=+5881 missed=+156 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448077465] receive batch sample; count=8193 packets=32 receive=332036 missed=6557 no_buffer=0 available_tx=49 reset=0
+pcntn5m: [1795448077548] transmit ring exhausted; receive=333952 transmit=194320 missed=6611 no_buffer=0 underflow=0 reset=0
+pcntn5m: [1795448077548] transmit resources recovered; available_tx=64
+pcntn5m: [1795448077750] missed packet sample; total=6657 receive=336669 no_buffer=0 batches=8303 available_tx=63
+pcntn5m: [1795448078201] deferred timer; count=4353 receive=342094 batches=8447 missed=6780 no_buffer=0 available_tx=45 reset=0
+pcntn5m: [1795448078203] receive batch sample; count=8449 packets=32 receive=342158 missed=6782 no_buffer=0 available_tx=48 reset=0
+pcntn5m: [1795448078598] missed packet sample; total=6913 receive=348300 no_buffer=0 batches=8611 available_tx=60
+pcntn5m: [1795448078796] receive batch sample; count=8705 packets=32 receive=351585 missed=6987 no_buffer=0 available_tx=48 reset=0
+pcntn5m: [1795448079131] periodic delta; receive=+25164 transmit=+14100 missed=+542 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448079344] missed packet sample; total=7169 receive=359353 no_buffer=0 batches=8917 available_tx=61
+pcntn5m: [1795448079427] deferred timer; count=4609 receive=360812 batches=8960 missed=7208 no_buffer=0 available_tx=49 reset=0
+pcntn5m: [1795448079428] receive batch sample; count=8961 packets=32 receive=360844 missed=7208 no_buffer=0 available_tx=49 reset=0
+pcntn5m: [1795448079918] missed packet sample; total=7425 receive=369776 no_buffer=0 batches=9191 available_tx=48
+pcntn5m: [1795448079953] receive batch sample; count=9217 packets=32 receive=370608 missed=7452 no_buffer=0 available_tx=32 reset=0
+pcntn5m: [1795448080595] deferred timer; count=4865 receive=381166 batches=9459 missed=7642 no_buffer=0 available_tx=48 reset=0
+pcntn5m: [1795448080760] receive batch sample; count=9473 packets=32 receive=381825 missed=7653 no_buffer=0 available_tx=53 reset=0
+pcntn5m: [1795448080809] missed packet sample; total=7681 receive=383338 no_buffer=0 batches=9520 available_tx=62
+pcntn5m: [1795448081688] receive batch sample; count=9729 packets=32 receive=395393 missed=7786 no_buffer=0 available_tx=48 reset=0
+pcntn5m: [1795448082025] missed packet sample; total=7937 receive=402381 no_buffer=0 batches=9931 available_tx=60
+pcntn5m: [1795448082056] deferred timer; count=5121 receive=403341 batches=9961 missed=7967 no_buffer=0 available_tx=46 reset=0
+pcntn5m: [1795448082129] receive batch sample; count=9985 packets=32 receive=404162 missed=7988 no_buffer=0 available_tx=49 reset=0
+pcntn5m: [1795448082705] receive batch sample; count=10241 packets=32 receive=414544 missed=8134 no_buffer=0 available_tx=49 reset=0
+pcntn5m: [1795448083239] missed packet sample; total=8193 receive=419164 no_buffer=0 batches=10303 available_tx=57
+pcntn5m: [1795448083904] deferred timer; count=5377 receive=430167 batches=10463 missed=8286 no_buffer=0 available_tx=46 reset=0
+pcntn5m: [1795448083944] receive batch sample; count=10497 packets=32 receive=431255 missed=8319 no_buffer=0 available_tx=45 reset=0
+pcntn5m: [1795448084587] missed packet sample; total=8449 receive=441075 no_buffer=0 batches=10701 available_tx=58
+pcntn5m: [1795448084740] receive batch sample; count=10753 packets=32 receive=443384 missed=8484 no_buffer=0 available_tx=48 reset=0
+pcntn5m: [1795448085244] deferred timer; count=5633 receive=451045 batches=10967 missed=8687 no_buffer=0 available_tx=49 reset=0
+pcntn5m: [1795448085412] receive batch sample; count=11009 packets=32 receive=452573 missed=8704 no_buffer=0 available_tx=46 reset=0
+pcntn5m: [1795448085412] missed packet sample; total=8705 receive=452573 no_buffer=0 batches=11009 available_tx=48
+pcntn5m: [1795448086172] receive batch sample; count=11265 packets=32 receive=464915 missed=8910 no_buffer=0 available_tx=51 reset=0
+pcntn5m: [1795448086448] missed packet sample; total=8961 receive=467129 no_buffer=0 batches=11325 available_tx=56
+pcntn5m: [1795448086786] deferred timer; count=5889 receive=472487 batches=11470 missed=9080 no_buffer=0 available_tx=49 reset=0
+pcntn5m: [1795448086963] receive batch sample; count=11521 packets=32 receive=474258 missed=9113 no_buffer=0 available_tx=48 reset=0
+pcntn5m: [1795448087080] periodic delta; receive=+118656 transmit=+66804 missed=+2035 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448089105] periodic delta; receive=+3905 transmit=+2123 missed=+66 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448091147] periodic delta; receive=+0 transmit=+0 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448093370] periodic delta; receive=+1 transmit=+0 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+Populating UpdatePolicy AllowListSKU MDM licensing allow list string from SLAPI:
+AboveLock|Accounts|ActiveXControls|ADMXIngest|AllowMessageSync|AppHVSI|ApplicationDefaults|AllowAllTrustedApps|AllowAppStoreAutoUpdate|AllowAutomaticAppArchiving|AllowDeveloperUnlock|AllowGameDVR|AllowSharedUserAppData|ApplicationRestrictions|Audit|ConfigureChatIcon|LaunchAppAfterLogOn|MSIAllowUserControlOverInstall|MSIAlwaysInstallWithElevatedPrivileges|RestrictAppDataToSystemVolume|RestrictAppToSystemVolume|AppRuntime|AttachmentManager|Authentication|Autoplay|BitLocker|BITS|Bluetooth|Browser|Camera|Cellular|CloudDesktop|Connectivity|ControlPolicyConflict|CredentialProviders|CredentialsDelegation|CredentialsUI|Cryptography|DataProtection|DataUsage|Defender|DeliveryOptimization|Desktop|DesktopAppInstaller|ConfigureSystemGuardLaunch|EnableVirtualizationBasedSecurity|DeviceHealthMonitoring|DeviceInstallation|DeviceLock|Display|DmaGuard|ErrorReporting|Eap|Education|EnterpriseCloudPrint|EventLogService|AllowClipboardHistory|AllowCopyPaste|AllowCortana|AllowDeviceDiscovery|AllowManualMDMUnenrollment|AllowSaveAsOfOfficeFiles|AllowScreenCapture|AllowSharingOfOfficeFiles|AllowSIMErrorDialogPromptWhenNoSIM|AllowSyncMySettings|AllowTailoredExperiencesWithDiagnosticData|AllowTaskSwitcher|AllowThirdPartySuggestionsInWindowsSpotlight|AllowVoiceRecording|DoNotShowFeedbackNotifications|DoNotSyncBrowserSettings|AllowFindMyDevice|ExploitGuard|FederatedAuthentication|Feeds|FileExplorer|Games|Handwriting|HumanPresence|InternetExplorer|Kerberos|KioskBrowser|Knobs|LanmanWorkstation|Licensing|LocalPoliciesSecurityOptions|LocalSecurityAuthority|LocalUsersAndGroups|Lockdown|Maps|MemoryDump|MSSecurityGuide|MSSLegacy|Multitasking|NetworkIsolation|NetworkListManager|NewsAndInterests|Notifications|OneDrive|Power|Printers|Privacy|RemoteAssistance|RemoteDesktopServices|RemoteDesktop|RemoteManagement|RemoteProcedureCall|RemoteShell|RestrictedGroups|Search|Security|Settings|SettingsSync|SmartScreen|Speech|Start|Storage|System|SystemServices|TaskManager|TaskScheduler|TenantRestrictions|TextInput|TimeLanguageSettings|Troubleshooting|Update|UserRights|VirtualizationBasedTechnology|WebThreatDefense|WiFi|WindowsLogon|WirelessDisplay|Location|WindowsAutopilot|WindowsConnectionManager|WindowsDefenderSecurityCenter|WindowsInkWorkspace|WindowsPowerShell|WindowsSandbox|WiredNetwork|ADMX_
+All policies are allowed
+pcntn5m: [1795448095596] periodic delta; receive=+1 transmit=+0 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448097807] periodic delta; receive=+0 transmit=+0 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448100019] periodic delta; receive=+2 transmit=+0 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448102282] periodic delta; receive=+1 transmit=+0 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448104726] periodic delta; receive=+0 transmit=+0 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448107163] periodic delta; receive=+4 transmit=+4 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448109598] periodic delta; receive=+1 transmit=+0 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448112047] periodic delta; receive=+1 transmit=+1 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448114406] periodic delta; receive=+8 transmit=+8 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448116408] periodic delta; receive=+4 transmit=+3 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448118423] periodic delta; receive=+1 transmit=+0 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448120437] periodic delta; receive=+1 transmit=+1 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448122439] periodic delta; receive=+2 transmit=+1 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448124453] periodic delta; receive=+0 transmit=+0 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448126468] periodic delta; receive=+1 transmit=+0 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448128468] periodic delta; receive=+2 transmit=+1 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448130483] periodic delta; receive=+3 transmit=+2 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448132485] periodic delta; receive=+1 transmit=+1 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448134500] periodic delta; receive=+0 transmit=+0 missed=+0 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448136151] missed packet sample; total=9217 receive=481921 no_buffer=0 batches=11648 available_tx=60
+pcntn5m: [1795448136506] periodic delta; receive=+8249 transmit=+4459 missed=+139 no_buffer=+0 crc=+0 framing=+0 length=+0 retry=+0 underflow=+0 available_tx=64 reset=0
+pcntn5m: [1795448136885] receive batch sample; count=11777 packets=32 receive=489817 missed=9321 no_buffer=0 available_tx=43 reset=0
+pcntn5m: [1795448137277] missed packet sample; total=9473 receive=496872 no_buffer=0 batches=11952 available_tx=64
+pcntn5m: [1795448137390] deferred timer; count=6145 receive=497816 batches=11979 missed=9498 no_buffer=0 available_tx=48 reset=0
+pcntn5m: [1795448137485] receive batch sample; count=12033 packets=32 receive=499596 missed=9551 no_buffer=0 available_tx=47 reset=0
+pcntn5m: [1795448137885] missed packet sample; total=9729 receive=506251 no_buffer=0 batches=12220 available_tx=59
+Break instruction exception - code 80000003 (first chance)
+*******************************************************************************
+*                                                                             *
+*   You are seeing this message because you pressed either                    *
+*       CTRL+C (if you run kd.exe) or,                                        *
+*       CTRL+BREAK (if you run WinDBG),                                       *
+*   on your debugger machine's keyboard.                                      *
+*                                                                             *
+*                   THIS IS NOT A BUG OR A SYSTEM CRASH                       *
+*                                                                             *
+* If you did not intend to break into the debugger, press the "g" key, then   *
+* press the "Enter" key now.  This message might immediately reappear.  If it *
+* does, press "g" and "Enter" again.                                          *
+*                                                                             *
+*******************************************************************************
+nt!DbgBreakPointWithStatus:
+fffff806`2883c120 cc              int     3
+Closing open log file C:\portcls_reactos_win2k3.log
